@@ -1,16 +1,18 @@
 
 # Hello Manta
 
-Hello Manta is a simple smart contract and minimal frontend project I built to get hands-on with the **Manta Pacific Testnet - Sepolia  (chainId 3441006)**.  
+Hello Manta is a minimal smart contract + frontend project I built to explore the **Manta Pacific Testnet - Sepolia (chainId 3441006)** and get hands‑on experience creating a dApp.
 
-This is the minimal frontend I built with Next.js using **wagmi** and **viem**.  
-It connects to MetaMask, reads the current `message()` from the `HelloManta` contract, and lets the user call `setMessage(string)` to update it.  
-The app automatically refreshes the display after each confirmed transaction and links directly to the verified contract and transaction hashes on Blockscout.
+The frontend is built with Next.js, **wagmi**, and **viem**. It connects to MetaMask, reads the current `message()` from the `HelloManta` contract, and lets users call `setMessage(string)` to update it. The display auto‑refreshes after each confirmed transaction and links directly to Blockscout for contract and transaction details.  
+
+As part of this project, I also learned how to pin and serve the static build on **IPFS**, making the dApp accessible in a decentralized way.
 
 **Live on IPFS:** [Hello Manta](https://ipfs.io/ipfs/bafybeicsotwt77usz7isilpe6fdjo6jaieicaw7tocrhhhdla5bsg3xrnu/)
 
 
 **Verified Contract link on** [Blockscout](https://pacific-explorer.sepolia-testnet.manta.network/address/0x25de0C203C6215D6D27fc06E004e9485f981d87F?tab=contract_source_code)
+
+Note: This dApp currently works only on Chrome with the MetaMask extension enabled.
 
 
 ## What I Learned
