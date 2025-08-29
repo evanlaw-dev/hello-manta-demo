@@ -7,7 +7,11 @@ This is the minimal frontend I built with Next.js using **wagmi** and **viem**.
 It connects to MetaMask, reads the current `message()` from the `HelloManta` contract, and lets the user call `setMessage(string)` to update it.  
 The app automatically refreshes the display after each confirmed transaction and links directly to the verified contract and transaction hashes on Blockscout.
 
+**Live on IPFS:** [Hello Manta](https://ipfs.io/ipfs/bafybeicsotwt77usz7isilpe6fdjo6jaieicaw7tocrhhhdla5bsg3xrnu/)
+
+
 **Verified Contract link on** [Blockscout](https://pacific-explorer.sepolia-testnet.manta.network/address/0x25de0C203C6215D6D27fc06E004e9485f981d87F?tab=contract_source_code)
+
 
 ## What I Learned
 

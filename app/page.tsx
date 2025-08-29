@@ -38,7 +38,9 @@ export default function Home() {
           View on Blockscout
         </a>
       </p>
-
+      <p style={{ fontSize: 12, color: 'gray', marginTop: 8 }}>
+        Note: This dApp currently works only on desktop browsers with the MetaMask extension enabled.
+      </p>
         {/* connect wallet section connected via injected connector (MetaMask) from wagmi in providers.tsx */}
       <section style={{ margin: '16px 0' }}>
         {isConnected ? (
@@ -85,9 +87,10 @@ export default function Home() {
           </div>
         )}
         {writeError && <div style={{ color: 'crimson', marginTop: 8 }}>{writeError.message}</div>}
+
         <p style={{ fontSize: 12, color: 'gray', marginTop: 8 }}>
-        Reminder: when sending transactions, ensure your wallet nonce is set to the correct value (greater than 0).
-      </p>
+            Reminder: when sending transactions, ensure your wallet nonce is set to the correct value (greater than 0).
+        </p>
       </section>
     </main>
   );
