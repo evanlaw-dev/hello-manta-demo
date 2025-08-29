@@ -48,3 +48,22 @@ sequenceDiagram
   R-->>W: response
   W-->>U: render message / status
 ```
+
+```mermaid
+flowchart TB
+    subgraph Ethereum [Ethereum L1]
+      S[Settlement / Security]
+    end
+
+    subgraph Celestia [Celestia DA Layer]
+      D[Data Availability]
+    end
+
+    subgraph Manta [Manta Pacific L2]
+      E[Execution EVM smart contracts]
+    end
+
+    U[User dApp Next.js + wagmi/viem] -->|RPC calls| E
+    E -->|Proofs / Finality| S
+    E -->|Tx data| D
+```
