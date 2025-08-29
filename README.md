@@ -16,38 +16,17 @@ Note: This dApp currently works only on Chrome with the MetaMask extension enabl
 
 <img width="400" height="628" alt="Screenshot 2025-08-29 at 16 35 14" src="https://github.com/user-attachments/assets/8137aae0-cc26-471f-b7c3-257f75b78d04" />
 
+## Interact on app
+1.  Connect your MetaMask wallet (make sure it’s on chainId 3441006, Manta Pacific Testnet (Sepolia)).
+2.  Read the current message.
+3.  Update it with a new message (requires Sepolia test ETH).
+4.  View contract/transaction links on Blockscout.
+
 ## What I Learned
 
 - This was my first time building **any blockchain frontend** and connecting it to a smart contract.  
 - Learned how to use **wagmi** and **viem** to manage wallet connection, contract reads/writes, and tx confirmations.  
 - Understood how a **minimal ABI** (`lib/abi.ts`) enables the frontend to talk to deployed contracts.  
-
-
-
-## Setup Locally
-
-1. **Clone the repo**  
-   ```bash
-   git clone <your-repo-url>
-   cd hello-manta-demo
-2. **Install dependencies**
-    ```bash 
-    npm install
-3. **Configure environment**
-    Create a .env.local file with:
-    ```bash
-    NEXT_PUBLIC_CONTRACT_ADDRESS=0x25de0C203C6215D6D27fc06E004e9485f981d87F
-    NEXT_PUBLIC_RPC_URL=https://pacific-rpc.sepolia-testnet.manta.network/http
-4. **Run the app**
-    ```bash
-    npm run dev
-    ```
-    then open http://localhost:3000
-5. **Interact on app**
-    -  Connect your MetaMask wallet (make sure it’s on chainId 3441006, Manta Pacific Testnet (Sepolia)).
-    -  Read the current message.
-    - Update it with a new message (requires Sepolia test ETH).
-    - View contract/transaction links on Blockscout.
 
 
 ## Architecture Diagram
