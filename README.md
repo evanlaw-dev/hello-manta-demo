@@ -14,6 +14,7 @@ As part of this project, I also learned how to pin and serve the static build on
 
 Note: This dApp currently works only on Chrome with the MetaMask extension enabled.
 
+<img width="400" height="628" alt="Screenshot 2025-08-29 at 16 35 14" src="https://github.com/user-attachments/assets/8137aae0-cc26-471f-b7c3-257f75b78d04" />
 
 ## What I Learned
 
